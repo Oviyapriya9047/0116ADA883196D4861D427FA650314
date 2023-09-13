@@ -1,0 +1,27 @@
+class player:
+   def play(self):
+       print(" The player is
+playing cricket.")
+
+class Batsman(player):
+    def play(self):
+        print("The batsman is 
+batting .")
+
+class Bowler(player):
+   def player(self):
+       print("The bowler is 
+bowling.")
+
+# create object of both
+Batsman and Bowler classes and
+call the play() method for 
+each object.
+batsman = Batsman()
+batsman = Bowler()
+
+batsman play()    # This will
+print "The batsman is
+batting."
+bowler.play()    # This will
+print "The bowler is bowling."
